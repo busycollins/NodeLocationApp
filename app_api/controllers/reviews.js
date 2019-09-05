@@ -186,7 +186,7 @@ const reviewsDeleteOne = (req, res) => {
   if (!locationid || !reviewid) {
     return res
       .status(404)
-      .json({'message': 'Not found, locationid and reviewid are both required'});
+      .json({'message': 'Not found, location id and review id are both required'});
   }
 
   Loc
